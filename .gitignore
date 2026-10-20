@@ -24,6 +24,8 @@ htmlcov/
 data/**/*
 !data/**/
 !data/**/.gitkeep
+data/raw/*/
+data/interim/*/
 models/*
 !models/.gitkeep
 

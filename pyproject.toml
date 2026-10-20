@@ -11,6 +11,8 @@ dependencies = [
     "matplotlib>=3.9",
     "seaborn>=0.13",
     "joblib>=1.4",
+    "nibabel>=5.4.2",
+    "nilearn>=0.14.1",
 ]
 
 [dependency-groups]
