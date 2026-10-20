@@ -6,7 +6,7 @@ import pandas as pd
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 
-from ds_project.config import RANDOM_STATE, RAW_DATA_DIR
+from retia_cognitionis.config import RANDOM_STATE, RAW_DATA_DIR
 
 
 def load_csv(name: str, data_dir: Path = RAW_DATA_DIR, **kwargs) -> pd.DataFrame:

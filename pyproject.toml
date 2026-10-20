@@ -1,5 +1,5 @@
 [project]
-name = "ds-project"
+name = "retia-cognitionis"
 version = "0.1.0"
 description = "Data science project template managed with uv"
 readme = "README.md"
@@ -29,15 +29,14 @@ notebook = [
 default-groups = ["dev", "notebook"]
 
 [project.scripts]
-train = "ds_project.train:main"
-rename = "ds_project.rename:main"
+train = "retia_cognitionis.train:main"
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/ds_project"]
+packages = ["src/retia_cognitionis"]
 
 [tool.ruff]
 line-length = 100

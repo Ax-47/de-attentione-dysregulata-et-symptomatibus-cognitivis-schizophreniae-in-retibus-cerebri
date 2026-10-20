@@ -1,5 +1,5 @@
-from ds_project.data import load_example_dataset, split
-from ds_project.train import build_model
+from retia_cognitionis.data import load_example_dataset, split
+from retia_cognitionis.train import build_model
 
 
 def test_split_shapes():

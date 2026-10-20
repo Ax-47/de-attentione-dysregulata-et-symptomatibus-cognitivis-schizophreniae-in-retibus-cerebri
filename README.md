@@ -31,7 +31,7 @@ uv run train
 ├── models/           # โมเดลที่เทรนแล้ว
 ├── notebooks/        # Jupyter notebooks สำหรับ EDA / ทดลอง
 ├── reports/figures/  # กราฟและรายงาน
-├── src/ds_project/   # โค้ดหลักของโปรเจกต์
+├── src/retia_cognitionis/   # โค้ดหลักของโปรเจกต์
 │   ├── config.py     # paths และค่าตั้งต้น
 │   ├── data.py       # โหลดและแบ่งข้อมูล
 │   ├── features.py   # feature engineering pipeline

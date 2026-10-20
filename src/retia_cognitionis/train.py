@@ -7,9 +7,9 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 from sklearn.pipeline import Pipeline
 
-from ds_project.config import MODELS_DIR, RANDOM_STATE
-from ds_project.data import load_example_dataset, split
-from ds_project.features import build_preprocessor
+from retia_cognitionis.config import MODELS_DIR, RANDOM_STATE
+from retia_cognitionis.data import load_example_dataset, split
+from retia_cognitionis.features import build_preprocessor
 
 
 def build_model() -> Pipeline:

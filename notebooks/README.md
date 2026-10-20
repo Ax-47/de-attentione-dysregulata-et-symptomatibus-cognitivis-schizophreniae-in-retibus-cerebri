@@ -8,5 +8,5 @@ Import project code instead of copying it into notebooks:
 %load_ext autoreload
 %autoreload 2
 
-from ds_project.data import load_example_dataset
+from retia_cognitionis.data import load_example_dataset
 ```
